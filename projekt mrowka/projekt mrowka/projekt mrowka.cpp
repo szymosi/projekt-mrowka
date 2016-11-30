@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include <iostream>
 
-const int size = 2;
+const int size = 31;
 int tab[size][size] = { 0 };
 int px = size / 2;
 int py = size / 2;
@@ -70,8 +70,10 @@ int main()
 		std::cout << std::endl;
 		for (int i = 0;i < size;i++) {
 			for (int a = 0;a < size;a++) {
-				std::cout << tab[i][a];
-				std::cout << " ";
+				if (tab[i][a] >= 1) 
+					std::cout << "* ";
+				else 
+					std::cout << ". ";
 			}
 			std::cout << std::endl;
 		}
