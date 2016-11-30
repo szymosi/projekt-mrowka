@@ -70,10 +70,10 @@ int main()
 		std::cout << std::endl;
 		for (int i = 0;i < size;i++) {
 			for (int a = 0;a < size;a++) {
-				if (tab[i][a] >= 1) 
-					std::cout << "* ";
+				if (tab[i][a] >= 1)
+					std::cout << " *";
 				else 
-					std::cout << ". ";
+					std::cout << " .";
 			}
 			std::cout << std::endl;
 		}
