@@ -11,6 +11,8 @@ int py = size / 2;
 int direction = 0;
 int steps = 0;
 
+//test
+
 int main()
 {
 	std::cout << "How many steps do you want ant to make \n";
